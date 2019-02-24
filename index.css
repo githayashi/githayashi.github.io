@@ -20,6 +20,23 @@ background-color: #31a9ee;	/*背景色指定*/
 color: #000000;	/* フォント色指定 */
 }	
 
+ul {
+  display: flex;
+  /*justify-content: space-between;*/
+}
+li {
+  list-style-type: none;
+  color: #000;
+  flex-grow: 0.5;
+  text-align: center;
+}
+li + li {
+  border-left: 1px solid #000;
+}
+
+
+
+
 footer {
     position: fixed; /*位置固定*/
     bottom: 0px; /*上下位置決定*/
