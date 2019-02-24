@@ -1,19 +1,33 @@
 @charset "UTF-8";
 /* CSS Document */
-body{
-	margin: 0;
-	padding: 0;
-	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-	background-image: url(../images/body-bg.png);
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;  /*余白の削除*/
+    padding: 40px 0 40px 0; /*余白の削除*/
+    font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 }
 
 header {
-position: fixed;	/* ヘッダーを固定する */
-top: 0;	/* 上部から配置の基準位置を決める */ 
-left: 0;	/* 左から配置の基準位置を決める */ 
-width: 100%;	/* ヘッダーの横幅を指定する */
-height: 35px;	/* ヘッダーの高さを指定する */
-padding: 10px;	/* ヘッダーの余白を指定する(上下左右) */
-background-color: #31a9ee;	/* ヘッダーの背景色を指定する */
-color: #000000;	/* フォントの色を指定する */
+position: fixed;	/* 位置固定 */
+top: 0px;	/* 上下位置決定 */ 
+left: 0px;	/* 左右位置決定 */ 
+width: 100%;	/* 横幅指定 */
+height: 35px;	/* 高さ指定 */
+padding: 10px;	/* 余白指定(上下左右) */
+background-color: #31a9ee;	/* 背景色指定 */
+color: #000000;	/* フォント色指定 */
 }	
+
+footer {
+    position: fixed; /*位置固定*/
+    bottom: 0px; /*上下位置決定*/
+    left: 0px;  /*左右位置決定*/
+    width: 100%;  /*横幅決定*/
+    height: 40px;  /*高さ決定*/
+    padding: 10px;  /*余白指定（上下左右)*/
+    background-color: #31a9ee; /*背景色指定*/
+    color: #000000; /*フォント色指定*/
+    
+}
